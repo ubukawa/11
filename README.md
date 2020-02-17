@@ -8,7 +8,7 @@ cd 11
 docker build -t 11 .  
 docker run -it --rm -v ${PWD}:/data 11  
  
-cd 11  
+cd 11-produce  
 vi config/default.hjson  
 
 rake
