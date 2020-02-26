@@ -10,5 +10,6 @@ docker run -it --rm -v ${PWD}:/data 11
  
 cd 11-produce  
 vi config/default.hjson  
+mkdir /data/xxx   //mbtilesDir
 
 rake
